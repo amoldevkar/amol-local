@@ -1,0 +1,28 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+
+
+}
+th{
+    width: 200px;
+    background-color: aqua;
+    
+}
+ 
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 70px;
+}
+.h2{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+}

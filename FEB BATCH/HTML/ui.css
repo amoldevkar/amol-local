@@ -1,0 +1,53 @@
+.parent{
+       background-color: aquamarine;
+}
+
+.main-container{
+       background-color: brown;
+       overflow: hidden;
+}
+
+.main-container a{
+       text-decoration:none ;
+       font-size: 20px;
+       padding: 12px 17px;
+       float: left;
+}
+.dropdown-btn{
+       background-color: green;
+       color: white;
+       border: none;
+       padding: 7px 6px;
+       position: relative;
+       top: 10px;
+}
+.dropdown-content{
+       background-color: aqua;
+       display: none;
+       width: 109px;
+       position: absolute;
+       left: 214px;
+       text-align: center;
+       top: 47px;
+}
+.dropdown:hover .dropdown-content{
+       display: block;
+}
+.dropdown-content a:hover{
+       background-color: lawngreen;
+}
+.dropdown-content a{
+       width: 75px;
+}
+a.hm:hover{
+       background-color: red;
+}
+a.cont-us:hover{
+       background-color: red;
+}
+.dropdown-btn:hover{
+       background-color: rgb(43, 226, 67);
+}
+.dropdown {
+       display: inline-block;
+}

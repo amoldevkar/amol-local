@@ -1,0 +1,50 @@
+.container{
+    width: 87px;
+    border: 2px solid blueviolet;
+    height: 100px;
+    /*overflow-y:hiddenss;
+    overflow-x:scroll;*/
+    overflow:scroll;
+
+}
+.containt{
+    width: 72px;
+    border: 2px solid blueviolet;
+    height: 100px;
+    overflow: auto;
+}
+.containt2{
+    width: 72px;
+    border: 2px solid blueviolet;
+    height: 100px;
+    overflow:hidden;
+
+}
+.containt3{
+    width: 300px;
+    border: 2px solid blueviolet;
+    height: 80px;
+    overflow:hidden;
+
+}
+div.containt3:hover{
+    overflow: visible;
+}
+.containt4{
+    width: 300px;
+    border: 2px solid blueviolet;
+    height: 80px;
+    overflow:clip;
+
+}
+.cont5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+}
+div.cont5:hover{
+    overflow: visible;
+    
+}

@@ -1,0 +1,97 @@
+.main{
+    border: 2px dotted red;
+    height: 150px;
+    width: 270px;
+    background-color: darkgoldenrod;
+    padding: 2px;
+    margin-left: 33px;
+    margin-top: 118px;
+
+
+}
+.main2{
+    
+    border: 2px dotted red;
+    height: 150px;
+    width: 270px;
+    margin-left: 300px;
+    background-color: antiquewhite;
+    
+}
+.main3{
+    border: 2px;
+    height: 150px;
+    width: 270px;
+    background-color: brown;
+    margin-left: 404px;
+}
+
+.main5{
+    background-color:yellow;
+    width: 150px;
+    height: 20px;
+}
+ 
+pre:hover{
+    background-color: crimson;
+    width: 250px;
+    height: 220px;
+ }
+
+ input:focus{
+    background-color: blueviolet;
+ }
+ 
+ /*div:hover{
+    color: aqua;
+    background-color: rgb(209, 134, 36);
+
+ }*/
+
+ .main6:hover{
+    color: aqua;
+    background-color: aquamarine;
+
+ }
+
+ .main6{
+    background-color: rebeccapurple;
+    height: 150px;
+    height: 40px;
+ }
+
+ .input-main{
+    background-color: aquamarine;
+ }
+
+ .btn{
+   background-color: deeppink;
+   color: darkgoldenrod;
+   border: none;
+   height: 26px;
+   width: 89px;
+   margin-left: 95px;
+   font-size: 22px;
+ }
+
+.btn:hover{
+   background-color: darkmagenta;
+}
+.btn:active{
+   background-color: blueviolet;
+}
+h1:first-child{
+   color: blueviolet;
+   font-size: 30px;
+}
+.first-letter{
+   color: rgb(47, 18, 207);
+   font-size: 45px;
+}
+h5.beauty::first-letter{
+   color: chartreuse;
+   font-size: 45px;
+}
+h4.h444::first-line{
+   background-color: darkkhaki;
+}

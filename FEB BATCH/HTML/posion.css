@@ -1,0 +1,50 @@
+.posion-first-static{
+    border: 1px solid yellowgreen;
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    top: 30px;
+    position:static;
+
+}
+.rel{
+    border: 1px solid yellowgreen;
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    top: 30px;
+    left: 50px;
+    position:relative;
+
+}
+.abs{
+    border: 1px solid yellowgreen;
+    background-color: blueviolet;
+    height: 50px;
+    width: 60px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+.fix{
+    border: 1px solid yellowgreen;
+    background-color: rgb(43, 226, 116);
+    height: 30px;
+    width: 541px;
+    bottom: 0px;
+    right: 600px;
+    position: fixed;
+ 
+}
+.sticky-prop{
+    border: 1px solid yellowgreen;
+    background-color: rgb(43, 226, 116);
+    height: 30px;
+    width: 560px;
+    top: 0px;
+    position: sticky;
+}
+.parent-container{
+    height: 300px;
+    overflow: scroll;
+}

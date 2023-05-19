@@ -1,0 +1,22 @@
+.main-table{
+
+border: 1px solid black;
+border-collapse: collapse;
+padding: 6px;
+height: 70px;
+text-align: center;
+margin: auto;
+background-color: antiquewhite;
+}
+.tabal-heading{
+    width: 200px;
+    background-color: aqua;
+
+}
+
+.table-titae{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+}

@@ -1,0 +1,31 @@
+
+<h1>my first js page</h1>
+<div id="myName1">.poonam patil</div>
+<br>
+
+<p id="paraTag">i live in mumbai</p>
+<br>
+<button onclick="document.getElementById('paraTag').innerHTML = 88888">click</button>
+<button onclick="document.getElementById('myName1').innerHTML ='poonam devkar...'  ">click</button>
+<!--first way:using internel script tag-->
+<script>
+    //syntax :
+    //function(reserved kerword) function-name(parameter1/argumenr1, parameters2/argument)
+    //code block
+    // }
+    let xyz = 5000;
+    let salary = 7000;
+     
+    document.write(xyz);
+    document.write(' ')
+    document.write(salary);
+    
+    function innerHTMLChange() {
+       // console.log('--->',document.getElementById('myName1'));
+        //console.log('---', document.getElementById('myName1').innerHTML);
+        document.getElementById('myName1').innerHTML ='i like pune...';
+    
+    }
+</script>
+
+<button onclick="innerHTMLChange()">click..</button>

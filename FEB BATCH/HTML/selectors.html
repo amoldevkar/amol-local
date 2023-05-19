@@ -1,0 +1,101 @@
+<!--CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)-->
+
+<!--elements based selector .-->
+
+<link rel="stylesheet" href="selectors.css">
+<p>hello</p>
+
+<!--id selector-->
+<h2 id="headerid"> world...</h2>
+
+<!--class selector-->
+<h1 class="header-content">hi...</h1>
+
+<!--A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)-->
+
+<!-- .1 .descendant selector (space)-->
+<div>
+    <p>para1</p>
+    <p>para2</p>
+    <h2>
+        <h3>
+            <p>para....</p>
+        </h3>
+        <p>para3</p>
+    </h2>
+    <h1>header1</h1>
+</div>
+
+<div>
+    <p>para</p>
+    <h1>jjj</h1>
+</div>
+
+<span>
+    <h3>1111</h3>
+
+</span>
+
+<span>
+    <h3>11pphhgjhj</h3>
+    <h3>pooo</h3>
+</span>
+
+<!-- child selector(>)
+the child selector selects all element that are the childern of a spcified elemnt -->
+
+<span>
+    <h5>11pppp</h5>
+    <h5>poo</h5>
+    <div>
+        <h5>55555</h5>
+    </div>
+</span>
+
+<!--Adjacent Sibling Selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".-->
+
+<div>
+    kkk
+    <h2>ppppp</h2>
+</div>
+<h2>h22222..</h2>
+
+<div>
+
+</div>
+<h2>h2////</h2>
+
+<!--General Sibling Selector (~)
+The general sibling selector selects all elements that are next siblings of a specified element.-->
+
+<p>praeeee</p>
+<h4>h4</h4>
+<h4>h44</h4>
+<h4>h444</h4>
+<h2>h222</h2>
+
+
+
+
+
+
+

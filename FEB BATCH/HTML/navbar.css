@@ -1,0 +1,52 @@
+.main-container{
+    background-color: coral;
+    overflow: hidden;
+}
+.main-container a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 17px;
+    float: left;
+    width: 75px; 
+    padding: 12px 17px; 
+}
+.dropdown-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 6px;
+    position: relative;
+    top: 10px;
+}
+.dropdown-content{
+    background-color: aqua;
+    display: none;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    top: 47px;
+    
+}
+button.dropdown-btn:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: brown;
+}
+.dropdown-content a{
+    width: 75px;
+}
+/*.main-container a:hover{
+    background-color:rgb(226, 144, 43) ;  
+
+}*/
+a.hm:hover{
+    background-color: rgb(149, 42, 165);
+}
+a.cont-us :hover{
+    background-color: rgb(43, 226, 174);
+}
+.dropdown-btn:hover{
+    background-color: aquamarine;
+}

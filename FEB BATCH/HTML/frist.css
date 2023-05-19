@@ -1,0 +1,16 @@
+/*externel css using element selector*/
+span,h5 {
+    color: aqua;
+    font-size: 30px;
+    /*font-family: Arial,;*/
+}
+/* every imp :::::externel css using class  selector*/
+/*syntax:.(period operator-classname {property :value;})*/
+
+.main{ 
+    background-color: aquamarine;
+}
+main{
+    background-color: aqua;
+}
+

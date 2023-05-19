@@ -1,0 +1,40 @@
+p{
+    color: blue;
+    font-size: 3rem;
+}
+
+#headerid{
+    color:red;(30,255,0)
+    font-size: 3rem;
+}
+
+.header-content{
+    color: brown;
+    font-size:4rem ;
+}
+
+div p{
+    color: yellow;
+}
+
+span h3{
+    color: yellowgreen;
+}
+
+span > h5{
+    background-color: rgb(227, 227, 8);
+    width: 200px;
+    
+}
+
+
+div + h2{
+    color: brown;
+}
+
+p ~ h4{
+    background-color:tomato;
+}
+
+
+
