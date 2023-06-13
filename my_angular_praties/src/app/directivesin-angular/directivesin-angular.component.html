@@ -1,0 +1,53 @@
+<!--directives can be classified in 3 categories based on how they behave:
+
+1.Component Directives
+2.Structural Directives
+3.Attribute Directives
+
+Component Directives: Component directives are used in main class. 
+They contain the detail of how the component should be processed, 
+instantiated and used at runtime.
+
+Structural Directives: Structural directives start with a * sign. 
+These directives are used to manipulate and change the structure of
+the DOM elements. For example, *ngIf directive, *ngSwitch directive, and *ngFor directive.-->
+<!--uses:
+*ngIf Directive: The ngIf allows us to Add/Remove DOM Element.
+*ngSwitch Directive: The *ngSwitch allows us to Add/Remove DOM Element. It is similar to switch statement of C#.
+*ngFor Directive: The *ngFor directive is used to repeat a portion of HTML template once per each item from an iterable list (Collection).
+-->
+
+
+<div>
+    <!--in case of true value of propery compiler will add that element to the dom-->
+    <h1 *ngIf="show1">hhhhhh</h1>
+    <!--in case of false value of propery compiler will remove that element from dom-->
+
+    <div *ngIf="show">i live in pune 
+        <h2>hhh</h2>
+        <p>ggzav</p>
+    </div>
+
+    <!--in case of undefined value of property it will consider it as a false-->
+
+    <p *ngIf="toshowpara1">amol</p> 
+
+    <!--in case of conditions compiler will show element to dom
+     if condiotion would true else it will remove element from dom if condition would  fale -->
+    <p *ngIf="toshowpara =='amol'">tststttdrtd</p>
+ 
+    <!--<h1 *ngIf="undefinedproperty = true">h111111111111111111</h1> not possible -->
+    
+    <!--in case of property having null value compiler it will consider is as a false  hence it shold
+    removed from dom -->
+    <p *ngIf="nullproperty">jjjjgkk</p>
+</div>
+
+<div class="div-container" *ngIf="toggel">
+
+</div>
+
+<br><br>
+
+<button (click)="toggelEffect()"> click </button>
+
