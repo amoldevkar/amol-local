@@ -6,12 +6,12 @@ import { SignupComponent } from './signup/signup.component';
 import { DirectivesinAngularComponent } from './directivesin-angular/directivesin-angular.component';
 
 const routes: Routes = [
-   { path : '', component : LandingComponent},
-   {path:'landing', component : LandingComponent},
-   {path:'login' ,component : LoginComponent},
-   {path:'signup',component : SignupComponent},
-   {path:'directives',component :DirectivesinAngularComponent},
-   {path :'student', loadChildren:()=>import ('./student/student.module').then(mod=>mod.StudentModule) }
+  { path: '', component: LandingComponent },
+  { path: 'landing', component: LandingComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'directives', component: DirectivesinAngularComponent },
+  { path: 'student', loadChildren: () => import('./student/student.module').then(mod => mod.StudentModule) }
 ];
 
 @NgModule({

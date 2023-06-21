@@ -4,3 +4,33 @@
     width: 100px;
     background-color: aqua;
 }
+
+.itm-container{
+    color: tomato;
+    font-size: 20px;
+    font-family: 'Courier New';
+
+}
+.table-container{
+   height: 300px; 
+   width: 250px;
+   padding: 5px 5px;
+   background-color: aquamarine;
+}
+table,th,tr,td{
+    border: 1px solid orangered;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+.container{
+    color: yellow;
+    font-size: 30px;
+}
+.container1{
+    color: rgb(255, 0, 162);
+    font-size: 30px;
+}
+.container2{
+    color: tomato;
+    font-size: 30px;
+}

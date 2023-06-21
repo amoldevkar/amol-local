@@ -19,4 +19,7 @@ export class LandingComponent {
   directives(){
     this.router.navigateByUrl('directives')
   }
+  signup(){
+    this .router.navigateByUrl('signUp');
+  }
 }

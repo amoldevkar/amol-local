@@ -15,7 +15,13 @@ the DOM elements. For example, *ngIf directive, *ngSwitch directive, and *ngFor 
 *ngIf Directive: The ngIf allows us to Add/Remove DOM Element.
 *ngSwitch Directive: The *ngSwitch allows us to Add/Remove DOM Element. It is similar to switch statement of C#.
 *ngFor Directive: The *ngFor directive is used to repeat a portion of HTML template once per each item from an iterable list (Collection).
+
+Attribute Directives: Attribute directives are used to change the look and behavior of the DOM elements. For example: ngClass directive, and ngStyle directive etc.
+ngClass Directive: The ngClass directive is used to add or remove CSS classes to an HTML element.
+ngStyle Directive: The ngStyle directive facilitates you to modify the style of an HTML element using the expression. You can also use ngStyle directive to dynamically change the style of your HTML element.
+
 -->
+
 
 
 <div>
@@ -23,21 +29,21 @@ the DOM elements. For example, *ngIf directive, *ngSwitch directive, and *ngFor 
     <h1 *ngIf="show1">hhhhhh</h1>
     <!--in case of false value of propery compiler will remove that element from dom-->
 
-    <div *ngIf="show">i live in pune 
+    <div *ngIf="show">i live in pune
         <h2>hhh</h2>
         <p>ggzav</p>
     </div>
 
     <!--in case of undefined value of property it will consider it as a false-->
 
-    <p *ngIf="toshowpara1">amol</p> 
+    <p *ngIf="toshowpara1">amol</p>
 
     <!--in case of conditions compiler will show element to dom
      if condiotion would true else it will remove element from dom if condition would  fale -->
     <p *ngIf="toshowpara =='amol'">tststttdrtd</p>
- 
+
     <!--<h1 *ngIf="undefinedproperty = true">h111111111111111111</h1> not possible -->
-    
+
     <!--in case of property having null value compiler it will consider is as a false  hence it shold
     removed from dom -->
     <p *ngIf="nullproperty">jjjjgkk</p>
@@ -50,4 +56,62 @@ the DOM elements. For example, *ngIf directive, *ngSwitch directive, and *ngFor 
 <br><br>
 
 <button (click)="toggelEffect()"> click </button>
+{{cars}}
+
+<!--<ul>
+  <li>swift</li>
+  <li>i20</li>
+</ul>-->
+
+
+<ul *ngFor="let item of cars">
+    <li class="itm-container">{{item}}</li>
+
+</ul>
+
+<table class="table-container">
+    <tr>
+        <th *ngFor="let heading of tablehading">{{heading}}</th>
+    
+    </tr>
+
+    <tr *ngFor="let tableData of carDetails">
+        <td>{{tableData.carName}}</td>
+        <td>{{tableData.carprice}}</td>
+        <td>{{tableData.color}}</td>
+    </tr>
+
+</table>
+<ul *ngFor="let data of data2">
+    <li>{{data}}</li>
+
+</ul>
+<ul *ngFor="let data of data3">
+    <li>{{data}}</li>
+</ul>
+
+<div [ngSwitch]="switchValue">
+    <h2 *ngSwitchCase="600">600 value</h2>
+    <h2 *ngSwitchCase="200">200 value</h2>
+    <h2 *ngSwitchcase="100">100 value</h2>
+    <h2 *ngSwitchDefault>default h2</h2>
+
+</div>
+
+<div class="container">
+    i like pune
+</div>
+<div [ngClass]="color=='pink'? 'container1' :'container'">
+    i like pune
+</div>
+<h2 [class.container]="  test == 200"
+     [class.container1]="test == 100"
+     [class.container2]="test == 300">
+ h222222222222
+
+</h2>
+
+<p style="color: aqua; font-size: 30px;">paraaaa</p>
+<p [ngStyle]="styleCss == 'yellow' ? {'color' : 'yellow'} : {'color' : 'green' , 'font-size':'30px'}">parrrrarrrr</p>
+<br><br><br>
 
