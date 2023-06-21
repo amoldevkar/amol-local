@@ -14,4 +14,5 @@ export class LoginComponent {
   back() {
     this.router.navigateByUrl('/landing');
   }
+  
 }

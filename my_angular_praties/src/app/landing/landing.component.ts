@@ -20,6 +20,6 @@ export class LandingComponent {
     this.router.navigateByUrl('directives')
   }
   signup(){
-    this .router.navigateByUrl('signUp');
+    this.router.navigateByUrl('signup');
   }
 }
