@@ -4,8 +4,9 @@ import { CommonModule } from '@angular/common';
 import { StudentRoutingModule } from './student-routing.module';
 import { StudentactivityComponent } from './studentactivity/studentactivity.component';
 import { StudentdemoComponent } from './studentdemo/studentdemo.component';
+console.log('student module');
 
-console.log('student module')
+
 
 
 @NgModule({
@@ -16,6 +17,6 @@ console.log('student module')
   imports: [
     CommonModule,
     StudentRoutingModule
-  ]
+  ],
 })
 export class StudentModule { }

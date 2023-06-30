@@ -1,13 +1,16 @@
 <div class="container">
     <button (click)="back()" class="back-btn">back</button>
     <h2 class="heading">Login From</h2>
-    
-    <form #login from=ngfrom class="for-center">
 
-        <label class="label">full Name</label><br> <br>&nbsp;
+    <form #login From = "ngFrom" class="for-center">
 
-        <input type="text" class="inp-box" name="fullname" pattern="[a-zA-Z]{40}"><br>
-        <span class="span-err" *ngif="Fullname.errors?.['pattern']">full name should only have alphabets</span>&nbsp;
+        <label class="label"> FullNames</label> <br> 
+
+        <input type="text"  ngModel class="inp-box" name="fName"
+        #Full Name = 'ngModel' pattern="[a-zA-Z]*$" required
+        minlength="5" maxlength="70"> <br>
+
+        <span class="span-err" > Please Enter Alphabets Only</span>
 
         <label class="pass">password</label><br>
 

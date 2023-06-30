@@ -17,10 +17,12 @@ console.log('app.module.ts file ')
     LoginComponent,
     SignupComponent,
     DirectivesinAngularComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
