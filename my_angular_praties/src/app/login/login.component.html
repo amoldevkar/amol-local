@@ -1,14 +1,14 @@
 <div class="container">
     <button (click)="back()" class="back-btn">back</button>
-    <h2 class="heading">Login From</h2>
+    <h2 class="heading">loginFrom</h2>
 
-    <form #login From = "ngFrom" class="for-center">
+    &it;
 
-        <label class="label"> FullNames</label> <br> 
+         <form #loginFrom = "ngFrom" class="for-center">
 
-        <input type="text"  ngModel class="inp-box" name="fName"
-        #Full Name = 'ngModel' pattern="[a-zA-Z]*$" required
-        minlength="5" maxlength="70"> <br>
+        <label class="label"> Full Names</label> <br>
+
+        <input type="text" ngModel class="inp-box" > <br>
 
         <span class="span-err" > Please Enter Alphabets Only</span>
 
@@ -16,8 +16,9 @@
 
         <input type="text" class="inp-box"> <br>
 
-        <button class=" submit-btn">submit</button>
 
-    </form>
+        <button class=" submit-btn">submit</button>
+      </form>
+    &it;  
 
 </div>

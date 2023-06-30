@@ -1,0 +1,15 @@
+.signup-from-container{
+    border: 1px solid black;
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+    margin: 91px;
+    margin-top: 50px;
+    padding: 20px 24px;
+
+}
+.from-heading{
+    margin-left: 157px;
+    margin-top: 34px;
+    color: tomato;
+}

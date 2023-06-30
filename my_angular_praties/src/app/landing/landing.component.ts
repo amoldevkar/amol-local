@@ -23,4 +23,7 @@ export class LandingComponent {
   signup(){
     this.router.navigateByUrl('signup');
   }
+  parent(){
+    this.router.navigateByUrl('parent');
+  }
 }

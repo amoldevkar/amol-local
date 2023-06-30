@@ -7,6 +7,8 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { DirectivesinAngularComponent } from './directivesin-angular/directivesin-angular.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 console.log('app.module.ts file ')
 
@@ -17,6 +19,9 @@ console.log('app.module.ts file ')
     LoginComponent,
     SignupComponent,
     DirectivesinAngularComponent,
+    ParentComponent,
+    ChildComponent,
+    
     
   ],
   imports: [
