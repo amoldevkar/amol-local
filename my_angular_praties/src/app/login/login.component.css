@@ -48,5 +48,7 @@
 .span-err{
     color: red;
     font-size: 18px;
+    position: relative;
+    top: 6px;
 
 }

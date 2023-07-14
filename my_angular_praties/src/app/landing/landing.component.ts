@@ -26,4 +26,11 @@ export class LandingComponent {
   parent(){
     this.router.navigateByUrl('parent');
   }
+  apicall(){
+    this.router.navigateByUrl('student/apicall');
+  }
+  form(){
+    this.router.navigateByUrl('form');
+  }
+
 }

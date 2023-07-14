@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { from } from 'rxjs';
+import { FormGroup,FormBuilder,Validator } from '@angular/forms';
 
 @Component({
   selector: 'app-signup',
@@ -7,7 +7,12 @@ import { from } from 'rxjs';
   styleUrls: ['./signup.component.css'],
 })
 
-export class SignupComponent{
+export class SignupComponent {
+  signupform! : FormGroup;
+
+  constructor(private fb: FormBuilder){
+
+  }
 
 }
 

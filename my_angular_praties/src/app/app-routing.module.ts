@@ -6,6 +6,7 @@ import { SignupComponent } from './signup/signup.component';
 import { DirectivesinAngularComponent } from './directivesin-angular/directivesin-angular.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'directives', component: DirectivesinAngularComponent },
   { path: 'parent' ,component:ParentComponent},
   { path: 'child',component:ChildComponent},
+  { path: 'form',component :FormComponent},
   { path: 'student', loadChildren: () => import('./student/student.module').then(mod => mod.StudentModule) }
 ];
 
